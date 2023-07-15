@@ -12,7 +12,7 @@ let c:int, d:float; // declear two variables; you can also define two variables 
 let e[n]:int;  // declear a variable of integer array.
 ```
 
-$$varDeclStmt \ :=\ <LET>\ (varDecl\ |\ varDef)\ (<COMMA> (varDecl\ |\ varDef))^*\ <SEMI> $$
+$$varDeclStmt \ :=\ \<LET>\ (varDecl\ |\ varDef)\ (\<COMMA> (varDecl\ |\ varDef))^*\ \<SEMI> $$
 
 ### Function Declaration Statement
 
