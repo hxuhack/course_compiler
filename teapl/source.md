@@ -4,6 +4,13 @@ $$program \ := (varDeclStmt\ |\ fnDeclStmt\ |\ fnDef\ |\ comment)^*$$
 
 ### Variable Declaration Statement
 
+```
+let a:int; // declare a variable of type int; the type field can be ignored.
+let b:int = 0; // define a variable of int with value 0.
+let c:int, d:float; // declear two variables; you can also define two variables with one let.
+let e[n]:int;  // declear a variable of integer array.
+```
+
 ### Function Declaration Statement
 
 ### Function Definition
