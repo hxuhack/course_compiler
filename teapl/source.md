@@ -1,6 +1,6 @@
 ## Grammar of TeaPL
 
-$$program ：= (varDeclStmt | fnDeclStmt | fnDef | comment)^*$$
+$$program \ := (varDeclStmt\ |\ fnDeclStmt\ |\ fnDef\ |\ comment)^*$$
 
 ### Variable Declaration Statement
 
