@@ -1,5 +1,11 @@
 ## Grammar of TeaPL
 
-program ：= (varDeclStmt | fnDeclStmt | fnDecl | comment)$^*$
+$$program ：= (varDeclStmt | fnDeclStmt | fnDef | comment)^*$$
 
-$test^1$
+### Variable Declaration Statement
+
+### Function Declaration Statement
+
+### Function Definition
+
+### Comment
