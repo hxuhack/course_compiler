@@ -40,7 +40,55 @@ ZXR (64-bit)/WZR (32-bit): zero register
 SP: stack pointer
 SPSR: saved process status register (similar to EFLAGs in X86-64)
 
+#### Calling Convention
+
+Parameter: X0-X7
+Result: X0-X1
+Caller-saved Registers: X9-X15
+Callee-saved Registers: X19-X28
+
 ### Instructions
+
+#### Instruction Format
+
+Each instruction is 32-bit.
+
+Valid instant numbers: 12 bit (4 bit for right rotation, and 8 bit for value), e.g., 0x00ab0000 is valid; 0x001ab0000 is invalid.
+
+#### Load/Store
+
+Load the 32bit value at address X1 into W0
+```
+LDR W0, [X1]
+```
+
+Load the 32bit value at address X1+12 into W0
+```
+LDR W0, [X1, #12]
+```
+
+Pre-index Load: Load the 32bit value at address X1+12 into W0, update X1 as X1+12
+```
+LDR W0, [X1, #12]!
+```
+
+Post-index Load: Load the 32bit value at address X1 into W0, update X1 as X1+12
+```
+LDR W0, [X1], #12
+```
+
+#### Integer Arithmatic 
+
+#### Floating-point Arithmatic
+
+#### Branch
+
+#### Function Call
+BL: branch with linkage (call)  
+RET
+
+#### More
+
 
 ### Reference:
 [Armv8-A Instruction Set Architecture](https%3A%2F%2Fdeveloper.arm.com%2F-%2Fmedia%2FArm%2520Developer%2520Community%2FPDF%2FLearn%2520the%2520Architecture%2FArmv8-A%2520Instruction%2520Set%2520Architecture.pdf%3Frevision%3Debf53406-04fd-4c67-a485-1b329febfb3e&usg=AOvVaw3bCQfc3kXAgqyMYzE8ZbY5&opi=89978449)
