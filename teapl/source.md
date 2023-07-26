@@ -13,6 +13,8 @@ let e[n]:int;  // declear a variable of integer array.
 ```
 
 varDeclStmt := \<LET\> (varDecl | varDef) (\<COMMA\> (varDecl | varDef))* \<SEMI\> 
+varDecl:= ID <COLON> ID 
+ID := [a-zA-Z][a-zA-Z0-9]*
 
 ### Function Declaration Statement
 
