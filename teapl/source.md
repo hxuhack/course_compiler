@@ -57,4 +57,4 @@ callStmt :=
 
 ### Comment
 
-comment :=  <//> _* || </*> _* <*/>  
+comment :=  <//> _* | </*> _* <*/>  
