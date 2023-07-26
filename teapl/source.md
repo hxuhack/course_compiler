@@ -2,11 +2,11 @@
 
 ### Basic Identifiers and Values
 
-```
-ID := [a-zA-Z][a-zA-Z0-9]*  
-Value := [1-9][0-9] (<DOT>[0-9]| $\epsilon$)
-Op := + | - | * | / | %
-```
+
+ID := [a-zA-Z][a-zA-Z0-9]*   
+Value := [1-9][0-9] (<DOT>[0-9]| $\epsilon$)  
+Op := + | - | * | / | %  
+
 
 ```
 program := (varDeclStmt | fnDeclStmt | fnDef | comment)*
