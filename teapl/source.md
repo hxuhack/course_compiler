@@ -1,5 +1,13 @@
 ## Grammar of TeaPL
 
+### Basic Identifiers and Values
+
+```
+ID := [a-zA-Z][a-zA-Z0-9]*  
+Value := [1-9][0-9] (<DOT>[0-9]| $\epsilon$)
+Op := + | - | * | / | %
+```
+
 ```
 program := (varDeclStmt | fnDeclStmt | fnDef | comment)*
 ```
@@ -15,11 +23,10 @@ let e[n]:int;  // declear a variable of integer array.
 ```
 The grammar is defined as follows.
 ```
-varDeclStmt := \<LET\> (varDecl | varDef) (\<COMMA\> (varDecl | varDef))* \<SEMI\>   
-varDecl := Id <COLON> Id   
-ID := [a-zA-Z][a-zA-Z0-9]*  
+varDeclStmt := <LET> (varDecl | varDef) (<COMMA> (varDecl | varDef))* <SEMI>   
+varDecl := Id <COLON> Id
 varDef := Id <COLON> Id <EQ> Expr
-Expr := Id | Var | (Id | Var) OP (Id | Var)   
+Expr := Id | Value | (Id | Value) Op (Id | Value)   
 ```
 
 ### Function Declaration Statement
