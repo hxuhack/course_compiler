@@ -63,33 +63,121 @@ structDef := <struct> <{> (varDecl | varDef) (<,> varDecl | varDef)* <}>
 
 ### Function Declaration Statement
 
-Each function starts with the keyword fn.
+Each function declaration starts with the keyword fn.
 ```
 fn foo(a:int, b:int)->int;
 fn foo();
 ```
 
+The grammar is defined as follows.
 ```
 fnDeclStmt := <fn> id <(> paramDecl <)> <;> | <fn> id <(> paramDecl <)> <=>> type <;>   
 paramDecl := id <:> type (<,> id <:> type)*    
 ```
 
 ### Function Definition
+We can also define a function while declaring it.
+```
+fn foo(a:int, b:int)->int {
+    return a + b;
+} 
+```
 
+The grammar is specified as follows.
 ```
-fn foo(a:int, b:int)->int {return a + b;} 
+fnDef := <fn> id <(> paramDecl <)> block | <fn> id <(> paramDecl <)> <=>> type block  
+block :=  <{> (varDeclStmt | assignStmt | callStmt | ifStmt | matchStmt | forStmt | whileStmt)* <}> 
 ```
 
+We have already defined the grammar of varDeclStmt. Next, we define the grammar of each statement type.
+
+*Assign Statement*
 ```
-fnDef := <fn> id <(> paramDecl <)> <{> stmts <}> | <fn> id <(> paramDecl <)> <=>> type <{> stmts <}>  
-stmts :=  varDeclStmt | assignStmt | callStmt | ifStmt | matchStmt | forStmt | whileStmt  
 assignStmt := leftVal <=> rightVal <;>  
-leftVal := id | id <[> (id | num) <]> | fnCall  
+leftVal := id | id <[> (id | num) <]> | <*>id | fnCall  
 rightVal := leftVal | num  
-callStmt :=  
+```
+
+*Function Call*
+```
+callStmt := fnCall<;>
+fnCall := id <(> ((var | id)(<,> (var | id))*) | ϵ<)>
+```
+
+*If statemet* 
+The condition should be surrounded with a paired parenthesis, and we further restrict the  body should be within a paired bracket. The following shows an example.
+```
+if (x>0) {
+    if (y>0) {
+        x++;
+    }
+    else {
+        x--;
+    }
+} else {
+
+}
+
+```
+
+```
+ifStmt := <if> <(> condExpr <)> block (ϵ | <else> block) <;> 
+condExpr := cond <&&> cond | cond <||> cond | cond
+cond := (id | num) logicOp (id | num)
+logicOp := <>> | <<> | <>=> | <<=>
+```
+
+*Match Statemet*
+
+Example:
+```
+match(x) { 
+    0 => { x++; }
+    1 => { x--; }
+    _ => {  } //default
+}
+
+```
+Definition:
+```
+matchStmt := <match> <(> id <)> <{> (num | id) <=>> block <}>
+```
+
+*For Statemet*
+
+We want to restrict its representability in two aspects: 1) the index is updated automatically with an interval of one; 2) the loop index should be immutable within the body of for.
+
+Example:
+```
+for i in 1..100 {
+    x[i] = i;
+}
+```
+Definition:
+```
+forStmt := <for> <(> id <in> range <)> block
+range := (id|num) <..> (id|num)
+```
+
+*While Statemet*
+
+Used for the representability of complicated loops.
+
+Example:
+```
+while (x > 0) {
+    x--;
+}
+```
+
+Definition:
+```
+whileStmt := <while> <(> cond <)> block
 ```
 
 ### Comment
+
+Similar to most programming languages, TeaPL allows line comments with "//" and scope comments with "/* ... */".
 
 ```
 comment :=  <//> _* | </*> _* <*/>  
