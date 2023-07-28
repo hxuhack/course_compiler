@@ -91,20 +91,20 @@ block :=  <{> (varDeclStmt | assignStmt | callStmt | ifStmt | matchStmt | forStm
 
 We have already defined the grammar of varDeclStmt. Next, we define the grammar of each statement type.
 
-*Assign Statement*
+**Assign Statement**
 ```
 assignStmt := leftVal <=> rightVal <;>  
 leftVal := id | id <[> (id | num) <]> | <*>id | fnCall  
 rightVal := leftVal | num  
 ```
 
-*Function Call*
+**Function Call**
 ```
 callStmt := fnCall<;>
 fnCall := id <(> ((var | id)(<,> (var | id))*) | ϵ<)>
 ```
 
-*If statemet* 
+**If statemet**
 The condition should be surrounded with a paired parenthesis, and we further restrict the  body should be within a paired bracket. The following shows an example.
 ```
 if (x>0) {
@@ -127,7 +127,7 @@ cond := (id | num) logicOp (id | num)
 logicOp := <>> | <<> | <>=> | <<=>
 ```
 
-*Match Statemet*
+**Match Statemet**
 
 Example:
 ```
@@ -143,7 +143,7 @@ Definition:
 matchStmt := <match> <(> id <)> <{> (num | id) <=>> block <}>
 ```
 
-*For Statemet*
+**For Statemet**
 
 We want to restrict its representability in two aspects: 1) the index is updated automatically with an interval of one; 2) the loop index should be immutable within the body of for.
 
@@ -159,7 +159,7 @@ forStmt := <for> <(> id <in> range <)> block
 range := (id|num) <..> (id|num)
 ```
 
-*While Statemet*
+**While Statemet**
 
 Used for the representability of complicated loops.
 
