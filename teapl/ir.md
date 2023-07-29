@@ -1,50 +1,20 @@
 ## Intermidiate Code of TeaPL
 
-### Identifiers 
+### Basics 
+**Identifiers**
 There are three types of identifiers:   
 - temporal variables: %1, %2, ...
 - local variables: %a, %b, ...
 - global variables: @a, %b
 
-### Function Definition And Call
-**Definition**
-```
-@define fn void @foo(i32 %x){
-    ...
-    ret;
-}
-@define fn i32 @bar(i32 %y){
-    ...
-    ret i32 %1;
-}
-```
-**Function Call**
-```
-call void @foo(1)
-%1 = load %a
-%2 = call i32 @test(i32 %1)
-```
+**Types**
 
-### Binary Operations
-**Integer arithmatic**: The IR supports five types of integer operators, add/sub/mul/div/rem. The operands should be the same type as the return value. For example, 
-```
-%1 = add i32, %a, %b;
-%1 = mul i32, %1, 2;
-```
-**Floating-point arithmatic**: Similarly, the IR supports four types of floating-point arithmatic operations, fadd/fsub/fmul/fdiv.
-```
-%1 = fadd f32, %a, %b;
-%1 = fmul f32, %1, 2.1;
-```
-
-**Bitwise operations**: and/or/xor/shl/ashr/lshr
-
-### Type Conversion
+**Type Conversion**
 
 Data truncatation
 ```
 %1 = trunc i64 %0, i32
-%8 = fptrunc double %7, float
+%8 = fptrunc f64 %7, f32
 ```
 
 Data extension
@@ -67,24 +37,55 @@ Integer to pointer/Pointer to integer
 %10 = ptrtoint i8* %9, i32
 ```
 
-### Data Load/Store
-Allocate a memory unit for a local variable on stack, and initialize it with value 1.
+### Overall Structures of IR
+An IR file is composed of global data and function definitions.
+**Global Data**
+
+**Function Definition**
 ```
-%a = salloc i32; 
-store i32 1, %a;
+@define fn i32 @bar(i32 %y){
+    ...
+    ret i32 %1;
+}
+```
+
+### Data Load/Store
+We require the memory of all local variables should be explicitly allocated on stack.
+
+```
+@define fn i32 @bar(i32 %y){
+    %a = stack i32; //allocate a memory unit of i32 for a local variable a on stack
+    store i32 1, %a;
+    %1 = load i32, %a;
+    ...
+}
 ```
 
 Load data from local variables on stack, perform an add operation and store the results back.
 ```
-%1 = load i32, %a;
+
 %2 = add i32 %1, 1;
 store i32 %2, %a;
 ```
 
+### Binary Operations
+**Integer arithmatic**: The IR supports five types of integer operators, add/sub/mul/div/rem. The operands should be the same type as the return value. For example, 
+```
+%3 = add i32, %2, %1;
+%2 = mul i32, %1, 2;
+```
+**Floating-point arithmatic**: Similarly, the IR supports four types of floating-point arithmatic operations, fadd/fsub/fmul/fdiv.
+```
+%3 = fadd f32, %1, %2;
+%3 = fmul f32, %1, 2.1;
+```
+
+**Bitwise operations**: and/or/xor/shl/ashr/lshr
+
 ### Addressing
 
 ```
-%a = salloc [2 x i32];
+%a = stalloc [2 x i32];
 %1 = getptr i32*, %a, 0, 1;
 store i32 99, %1;
 ```
@@ -114,6 +115,7 @@ jmp %BB1;
 
 **Indirect jump**
 ```
+%1 = getptr void*, %a, 0, 1;
 jmp %1;
 ```
 
@@ -130,6 +132,12 @@ match i32 %0, %BBdefault [
   i32 2, %BB3 ]
 ```
 
+### Function Call
+```
+call void @foo(1)
+%1 = load %a
+%2 = call i32 @test(i32 %1)
+```
 
 
 
