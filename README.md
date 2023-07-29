@@ -24,3 +24,5 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Dec 29 | 17 | No Class | University Exam Week |
 | Jan 5 | Week 18 | Exam (15:30-17:30) | open book |
 
+The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
+
