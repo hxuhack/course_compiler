@@ -17,7 +17,7 @@ TeaPL allows integers and floating-point numbers, e.g., 123, 3.14
 num := [1-9] [0-9] (<.> [0-9] | ϵ)
 ```
 
-An expression is a composd of identifiers, values,  and operators, e.g., 1+2, a*(b+c). 
+An expression is a composd of identifiers, values,  and operators, e.g., 1+2, a*(b+c). For simplicity, we don't support function calls and dereference operations within an experssion. Deverlopers should make a function call and save the result into a temporary variable first, which can then be employed as  the operand of an expression. Meanwhile, we donot support unary operators, such as ++, +=.
 ```
 expr :=  expr opL0 expr1 | expr1  
 expr1 :=  expr1 opL1 expr2 | expr2  
