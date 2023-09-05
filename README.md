@@ -3,9 +3,9 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 
 ### Lecture Notes
 
-| Date | Week | Topic | More |
+| Date | Week | Topic | Reading |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
-| Sep 8 | 1 | [课程入门](notes/L1-课程入门.pdf) | |
+| Sep 8 | 1 | [课程入门](notes/L1-课程入门.pdf) | [THE HISTORY OF FORTRAN I, II, AND III](reading/1-fortran-Backus78.pdf) |
 | Sep 15 | 2 | | |
 | Sep 22 | 3 | | |
 | Sep 29 | 4 | | |
