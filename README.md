@@ -11,8 +11,8 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Sep 29 | 4 | | |
 | Oct 6 | 5 | | |
 | Oct 13 | 6 | | online |
-| Oct 20 | 7 | | |
-| Oct 27 | 8 | | |
+| Oct 20 | 7 | | [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](https://ieeexplore.ieee.org/abstract/document/1281665)，Chris Lattner, V. Adve, CGO 2004 |
+| Oct 27 | 8 | | [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/abstract/document/9370308)，Chris Lattner et al, CGO 2021 |
 | Nov 3 | 9 | | |
 | Nov 10 | 10 | | |
 | Nov 17 | 11 | | |
