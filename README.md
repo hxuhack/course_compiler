@@ -5,7 +5,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 
 | Date | Week | Topic | Reading |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
-| Sep 8 | 1 | [课程入门](notes/L1-课程入门.pdf) | [The History of Fortran I, II, and III](reading/1-Fortran-Backus78.pdf), John Backus, 1978 |
+| Sep 8 | 1 | 课程入门 [slides](slides/L1-课程入门.pdf)[notes](notes/l1-intro.pdf)  | [The History of Fortran I, II, and III](reading/1-fortran.pdf), John Backus, 1978 |
 | Sep 15 | 2 | | |
 | Sep 22 | 3 | | |
 | Sep 29 | 4 | | |
