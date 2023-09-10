@@ -6,7 +6,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Date | Week | Topic | Reading |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
 | Sep 8 | 1 | 课程入门 [slides](slides/L1-课程入门.pdf)， [lecture notes](notes/l1-intro.pdf)  | [The History of Fortran I, II, and III](reading/1-fortran.pdf), John Backus, 1978 |
-| Sep 15 | 2 | | |
+| Sep 15 | 2 | 词法分析 | [Finite Automata And Their Decision Troblems](reading/2-fa.pdf) |
 | Sep 22 | 3 | | |
 | Sep 29 | 4 | | |
 | Oct 6 | 5 | No Class | 国庆节假期 |
@@ -21,8 +21,8 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Dec 8 | 14 | | online |
 | Dec 15 | 15 | | |
 | Dec 22 | 16 | | |
-| Dec 29 | 17 | No Class | University Exam Week |
-| Jan 5 | Week 18 | Exam (15:30-17:30) | open book |
+| Dec 29 | 17 | No Class (University Exam Week) | |
+| Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  |
 
 The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
 
