@@ -7,7 +7,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 |:---------:|:---------:|:------------------:|:----------------------------------:|
 | Sep 8 | 1 | 课程入门 [slides](slides/L1-课程入门.pdf)， [lecture notes](notes/l1-intro.pdf)  | [The History of Fortran I, II, and III](reading/1-fortran.pdf), John Backus, 1978 |
 | Sep 15 | 2 | 词法分析 [slides](slides/L2-词法分析.pdf)，[lecture notes](notes/l2-lex.pdf)  | [Finite Automata And Their Decision Troblems](reading/2-fa.pdf), Dana Scott, 1959 |
-| Sep 22 | 3 | 句法分析:CFG+LL(1) [slides](slides/L3-句法分析LL1.pdf), [lecture notes](notes/l3-cfg.pdf) | [CFL/Dyck Reachability: An Algorithmic Perspective](reading/3-cfl.pdf), Andreas Pavlogiannis, 2023 |
+| Sep 22 | 3 | 句法分析:CFG+LL(1) [slides](slides/L3-句法分析LL1.pdf), [lecture notes](notes/l3-cfg.pdf) | [CFL/Dyck Reachability: An Algorithmic Perspective](https://dl.acm.org/doi/abs/10.1145/3583660.3583664), Andreas Pavlogiannis, 2023 |
 | Sep 29 | 4 | No Class | 中秋节假期 |
 | Oct 6 (调课至 Oct 8) | 5 |  | online |
 | Oct 13 | 6 | | online |
