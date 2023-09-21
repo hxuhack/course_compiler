@@ -29,7 +29,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
 | Sep 15 | 2 | 使用解析工具开发计算器 | [文件](project/Assignment-1.zip) |
-| Sep 29 | 4 | No Class | 中秋节假期 |
+| Sep 29 | 4 | No Class 中秋节假期 |  |
 | Oct 13 | 6 | | |
 | Oct 27 | 8 | | |
 | Nov 10 | 10 | | |
