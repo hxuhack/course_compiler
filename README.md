@@ -30,7 +30,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 |:---------:|:---------:|:------------------:|:----------------------------------:|
 | Sep 15 | 2 | 使用解析工具开发计算器 | [文件](project/Assignment-1.zip) |
 | Sep 29 | 4 | No Class 中秋节假期 |  |
-| Oct 13 | 6 | TeaPL编译器开发：语法解析 | |
+| Oct 13 | 6 | TeaPL编译器开发：语法解析 | [Link](https://github.com/hxuhack/compiler_project) |
 | Oct 27 | 8 | TeaPL编译器开发：抽象语法树 | |
 | Nov 10 | 10 | TeaPL编译器开发：线性IR | |
 | Nov 24 | 12 | TeaPL编译器开发：SSA | |
