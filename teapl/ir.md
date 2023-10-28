@@ -1,6 +1,6 @@
 ## Intermediate Code of TeaPL
 
-### Basics 
+### Basic Instructions and Components
 **Identifiers**
 There are three types of identifiers:   
 - global variables: @a, %b
@@ -30,6 +30,7 @@ Requirements of naming:
 ```
 
 **Local Variable Declaration**
+- alloca: the instruction for allocating spaces on the stack for local variables
 ```
 %x = alloca i32
 %ar = alloca [2 x i32]
@@ -37,12 +38,15 @@ Requirements of naming:
 ```
 
 **Data Load and Store**
+- store: the instruction storing data to a memory address
+- load: the instruction loading data from an address
 ```
 store i32 %0, %x
 %r1 = load i32, i32* %x
 ```
 
 **Data Load and Store for Compound Types**
+- getelementptr: obtain the address of a target element within an object of compound types
 ```
 %ar = alloca [2 x i32]
 %r1 = getelementptr [2 x i32], [2 x i32]* %ar, i32 0, i32 0
@@ -55,29 +59,32 @@ store i32 1, i32* %r2
 
 **Type Conversion**
 
-- data truncation: trunc
-- zero extension: zext
+- trunc: instruction for data truncation
+- zext: instruction for expanding data with zero
 ```
 %r2 = trunc i8 %r1, i1
 %r3 = zext i1 %r2, i8
 ```
 
 **Function Definition**
+- define: define a new function
+- ret: return from a function call
+- call: make a function call
 ```
-@define i32 @bar(i32 %r0){
+define i32 @bar(i32 %r0){
     ...
-    ret i32 %r1;
+    %r2 = call i32 @bar(i32 %r1)
+    ret i32 %r2;
 }
-```
 
 
-### Function Call
-```
-%2 = call i32 @test(i32 %1)
 ```
 
-### Binary Operations
-**Integer arithmetic** 
+**Binary Operations**
+- add: instruction of adding two integers
+- sub: instruction of subtraction
+- mil: instruction of multiplication
+- div: instruction of signed division
 ```
 %r3 = add i32 %r2, 1
 %r4 = sub i32 %r3, 2
@@ -85,7 +92,7 @@ store i32 1, i32* %r2
 %r6 = sdiv i32 %r4, 4
 ```
 
-### Comparison
+**Comparison Operations**
 ```
 %5 = icmp sgt i32 %4, 0
 %6 = icmp sge i32 %4, 0
@@ -95,28 +102,26 @@ store i32 1, i32* %r2
 %10 = icmp ne i32 %4, 0
 ```
 
-### Logical Operation
-**Not**
+**Logical Operation: Not**
+- xor: exclusive or
 ```
 %7 = xor i1 %6, true
 ```
 
-### Control
-**Direct Jump**
+**Control Flow**
+- br: instruction for both direct jump and conditional jump
 ```
  br label %bb3
-```
-
-**Conditional Jump**
-```
+%bb1:
   %4 = icmp sgt i32 %3, 0
-  br i1 %4, label %bb1, label %bb2
-bb1: 
+  br i1 %4, label %bb2, label %bb3
+bb2: 
   
-bb2:
+bb3:
 ```
 
-**Conditional Data Flow**
+**Data Flow**
+-phi: instruction of conditional value depending on its previous code block 
 ```
 bb1: 
 
