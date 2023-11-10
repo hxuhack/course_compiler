@@ -32,7 +32,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Sep 29 | 4 | No Class 中秋节假期 |  |
 | Oct 13 | 6 | TeaPL编译器开发：语法解析 | [Link](https://github.com/hxuhack/compiler_project/tree/assignment-2) |
 | Oct 27 | 8 | TeaPL编译器开发：类型检查 | [Link](https://github.com/hxuhack/compiler_project/tree/ass-3-typecheck) |
-| Nov 10 | 10 | TeaPL编译器开发：线性IR | |
+| Nov 10 | 10 | TeaPL编译器开发：线性IR | [Link](https://github.com/hxuhack/compiler_project/blob/assignment4/src/assignment4.md) |
 | Nov 24 | 12 | TeaPL编译器开发：SSA | |
 | Dec 8 | 14 | | online |
 | Dec 22 | 16 | | |
