@@ -15,7 +15,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Oct 27 | 8 | L8-Linear IR | [slides](slides/L8-线性IR.pdf) | [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](https://ieeexplore.ieee.org/abstract/document/1281665), Chris Lattner, V. Adve, CGO 2004 |
 | Nov 3 | 9 | SSA | [slides](slides/L9-SSA.pdf), [lecture notes](notes/l9-ssa.pdf) | [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/abstract/document/9370308), Chris Lattner et al, CGO 2021 | 
 | Nov 10 | 10 | Optimization | [slides](slides/L10-IROpti.pdf) | |
-| Nov 17 | 11 | | | |
+| Nov 17 | 11 | 语言功能和设计模式 | [slides](slides/L11-语言More.pdf) | |
 | Nov 24 | 12 | | | |
 | Dec 1 | 13 | | | |
 | Dec 8 | 14 | | online | |
