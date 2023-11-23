@@ -16,7 +16,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Nov 3 | 9 | SSA | [slides](slides/L9-SSA.pdf), [lecture notes](notes/l9-ssa.pdf) | [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/abstract/document/9370308), Chris Lattner et al, CGO 2021 | 
 | Nov 10 | 10 | Optimization | [slides](slides/L10-IROpti.pdf) | |
 | Nov 17 | 11 | 语言功能和设计模式 | [slides](slides/L11-语言More.pdf) | |
-| Nov 24 | 12 | | | |
+| Nov 24 | 12 | 汇编代码 | [slides](slides/L12-汇编代码.pdf) | |
 | Dec 1 | 13 | | | |
 | Dec 8 | 14 | | online | |
 | Dec 15 | 15 | | | | 
