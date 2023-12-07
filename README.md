@@ -18,7 +18,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Nov 17 | 11 | 语言功能和设计模式 | [slides](slides/L11-语言More.pdf) | |
 | Nov 24 | 12 | 汇编代码 | [slides](slides/L12-汇编代码.pdf) | |
 | Dec 1 | 13 | 指令选择和调度 | [slides](slides/L13-指令选择和调度) | |
-| Dec 8 | 14 | | | |
+| Dec 8 | 14 | 寄存器分配 | [slides](slides/L14-寄存器分配) | |
 | Dec 15 | 15 | | | | 
 | Dec 22 | 16 | | | |
 | Dec 29 | 17 | No Class (University Exam Week) | | |
@@ -34,7 +34,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Oct 27 | 8 | TeaPL编译器开发：类型检查 | [Link](https://github.com/hxuhack/compiler_project/tree/ass-3-typecheck) |
 | Nov 10 | 10 | TeaPL编译器开发：线性IR | [Link](https://github.com/hxuhack/compiler_project/blob/assignment4/src/assignment4.md) |
 | Nov 24 | 12 | TeaPL编译器开发：SSA | [Link](https://github.com/hxuhack/compiler_project/tree/assignment5) |
-| Dec 8 | 14 | TeaPL编译器开发：指令选择 | |
+| Dec 8 | 14 | TeaPL编译器开发：指令选择 | [Link](https://github.com/hxuhack/compiler_project/tree/assignment6) |
 | Dec 22 | 16 | | |
 | Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  |
 
