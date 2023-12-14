@@ -19,7 +19,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Nov 24 | 12 | 汇编代码 | [slides](slides/L12-汇编代码.pdf) | |
 | Dec 1 | 13 | 指令选择和调度 | [slides](slides/L13-指令选择和调度) | |
 | Dec 8 | 14 | 寄存器分配 | [slides](slides/L14-寄存器分配) | |
-| Dec 15 | 15 | | | | 
+| Dec 15 | 15 | 异常处理| [slides](slides/L15-异常处理) | | 
 | Dec 22 | 16 | | | |
 | Dec 29 | 17 | No Class (University Exam Week) | | |
 | Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  | |
