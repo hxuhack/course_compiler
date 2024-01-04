@@ -15,7 +15,6 @@ enum BinOp {
     MUL,
     DIV,
     POW,
-    NONE,
 }
 
 #[derive(Debug)]
