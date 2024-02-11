@@ -1,8 +1,29 @@
 ### Compiler Principles and Techniques 
-This is the course webpage of SOFT130061 Compiler Principles and Techniques for undergraduate students at Fudan University. 
+This is the course webpage of SOFT130061 Compiler Principles and Techniques of Spring 2024 for undergraduate students at Fudan University. 
 
 ### Lecture Notes
 
+| Date | Week | Topic | Materials | 
+|:---------:|:---------:|:---------:|:------------------:|
+| Feb 26 |  1  | 课程入门  | |
+| Mar 4   |  2  |   | |
+| Mar 11 |  3  |   | |
+| Mar 18 |  4  |   | |
+| Mar 25 |  5  |   | |
+| Apr 1   |  6   |   | |
+| Apr 8   |  7   |   | |
+| Apr 15 |  8   |   | |
+| Apr 22 |  9   |   | |
+| Apr 29 |  10   |   | |
+| May 6  |  11   |   | |
+| May 13 |  12  |   | |
+| May 20 |  13  |   | |
+| May 27 |  14  |   | |
+| Jun 3    |  15  |   | |
+| Jun 10  |  16  |   | |
+| Jun 24  | 18  | Open Book Exam  | |
+
+<!--
 | Date | Week | Topic | Materials | Reading |
 |:---------:|:---------:|:---------:|:------------------:|:----------------------------------:|
 | Sep 8 | 1 | 课程入门 | [slides](slides/L1-课程入门.pdf), [lecture notes](notes/l1-intro.pdf)  | [The History of Fortran I, II, and III](reading/1-fortran.pdf), John Backus, 1978 |
@@ -23,9 +44,29 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Dec 22 | 16 | | | |
 | Dec 29 | 17 | No Class (University Exam Week) | | |
 | Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  | |
+-->
 
 ### Project
 
+| Date | Week | Topic | Materials |
+|:---------:|:---------:|:---------:|:------------------:|
+| Feb 29 |  1  |  | |
+| Mar 7   |  2  |   | |
+| Mar 14 |  3  |   | |
+| Mar 21 |  4  |   | |
+| Mar 28 |  5  |   | |
+| Apr 4   |  6   |   | |
+| Apr 11 |  7   |   | |
+| Apr 18 |  8   |   | |
+| Apr 25 |  9   |   | |
+| May 2 |  10   |   | |
+| May 9  |  11   |   | |
+| May 16 |  12  |   | |
+| May 23 |  13  |   | |
+| May 30 |  14  |   | |
+| Jun 6    |  15  |   | |
+| Jun 13  |  16  |   | |
+<!--
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
 | Sep 15 | 2 | 使用解析工具开发计算器 | [文件](project/Assignment-1.zip) |
@@ -34,9 +75,10 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques for 
 | Oct 27 | 8 | TeaPL编译器开发：类型检查 | [Link](https://github.com/hxuhack/compiler_project/tree/ass-3-typecheck) |
 | Nov 10 | 10 | TeaPL编译器开发：线性IR | [Link](https://github.com/hxuhack/compiler_project/blob/assignment4/src/assignment4.md) |
 | Nov 24 | 12 | TeaPL编译器开发：SSA | [Link](https://github.com/hxuhack/compiler_project/tree/assignment5) |
-| Dec 8 | 14 | TeaPL编译器开发：指令选择 | [Link](https://github.com/hxuhack/compiler_project/tree/assignment6) |
+| Dec 8   | 14 | TeaPL编译器开发：指令选择 | [Link](https://github.com/hxuhack/compiler_project/tree/assignment6) |
 | Dec 22 | 16 | | |
 | Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  |
+-->
 
 The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
 
