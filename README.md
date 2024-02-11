@@ -1,6 +1,8 @@
 ### Compiler Principles and Techniques 
 This is the course webpage of SOFT130061 Compiler Principles and Techniques of Spring 2024 for undergraduate students at Fudan University. 
 
+**Classroom**: HGX207 (1:30pm-4:10pm)
+
 ### Lecture Notes
 
 | Date | Week | Topic | Materials | 
@@ -47,6 +49,8 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques of S
 -->
 
 ### Project
+
+**Classroom**: H逸夫楼302, 305 (8:00am-9:40am)
 
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:---------:|:------------------:|
