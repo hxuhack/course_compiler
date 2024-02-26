@@ -1,5 +1,5 @@
 ### Compiler Principles and Techniques 
-This is the course webpage of SOFT130061 Compiler Principles and Techniques of Spring 2024 for undergraduate students at Fudan University. 
+This is the course webpage of COMP130014.02 Compiler Principles and Techniques of Spring 2024 for undergraduate students at Fudan University. 
 
 **Classroom**: HGX207 (1:30pm-4:10pm)
 
