@@ -54,7 +54,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 Teaching Assistant: 陈实立(Head TA)、王兆翰、柏露、董方
 
 | Date | Week | Topic | Materials | Responsible TA |
-|:---------:|:---------:|:---------:|:------------------:|
+|:---------:|:---------:|:---------:|:------------------:|:----------:|
 | Feb 29 |  1  |  | 董方 |
 | Mar 7   |  2  |   | 陈实立 |
 | Mar 14 |  3  |   | 陈实立 |
