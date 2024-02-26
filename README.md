@@ -7,7 +7,7 @@ This is the course webpage of SOFT130061 Compiler Principles and Techniques of S
 
 | Date | Week | Topic | Materials | 
 |:---------:|:---------:|:---------:|:------------------:|
-| Feb 26 |  1  | 课程入门  | |
+| Feb 26 |  1  | 课程入门  | [slides](slides/L1-课程入门.pdf) |
 | Mar 4   |  2  |   | |
 | Mar 11 |  3  |   | |
 | Mar 18 |  4  |   | |
