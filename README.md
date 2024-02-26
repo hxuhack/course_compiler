@@ -51,7 +51,8 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 ### Project
 
 **Classroom**: H逸夫楼302, 305 (8:00am-9:40am)
-Teaching Assistant: 陈实立(Head TA)、王兆翰、柏露、董方
+
+**Teaching Assistant**: 陈实立(Head TA)、王兆翰、柏露、董方
 
 | Date | Week | Topic | Materials | Responsible TA |
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
@@ -83,8 +84,9 @@ Teaching Assistant: 陈实立(Head TA)、王兆翰、柏露、董方
 | Dec 8   | 14 | TeaPL编译器开发：指令选择 | [Link](https://github.com/hxuhack/compiler_project/tree/assignment6) |
 | Dec 22 | 16 | | |
 | Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  |
--->
 
 The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
+-->
+
 
 
