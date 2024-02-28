@@ -56,7 +56,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 
 | Date | Week | Topic | Materials | Responsible TA |
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
-| Feb 29 |  1  |  | | 董方 |
+| Feb 29 |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
 | Mar 7   |  2  |   | | 陈实立 |
 | Mar 14 |  3  |   | | 陈实立 |
 | Mar 21 |  4  |   | | 陈实立 |
