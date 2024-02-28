@@ -52,7 +52,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 
 **Classroom**: H逸夫楼302, 305 (8:00am-9:40am)
 
-**Teaching Assistant**: 陈实立(Head TA)、王兆翰、柏露、董方
+**Teaching Assistant**: 陈实立(Head TA)、王兆翰、柏露、董方、张涵星
 
 | Date | Week | Topic | Materials | Responsible TA |
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
@@ -67,10 +67,10 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Apr 25 |  9   |  | | 柏露、董方 |
 | May 2 |  10   |  | | 王兆翰 |
 | May 9  |  11   |  | | 柏露 |
-| May 16 |  12  |  | | 柏露 |
-| May 23 |  13  |  | | 柏露 |
+| May 16 |  12  |  | | 张涵星、柏露 |
+| May 23 |  13  |  | | 张涵星、柏露 |
 | May 30 |  14  |  | | 王兆翰 |
-| Jun 6    |  15  | |  | 柏露 |
+| Jun 6    |  15  | |  | 张涵星、柏露 |
 | Jun 13  |  16  |  | | 王兆翰 |
 <!--
 | Date | Week | Topic | Materials |
