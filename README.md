@@ -9,9 +9,9 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 |:---------:|:---------:|:---------:|:------------------:|
 | Feb 26 |  1  | 课程入门  | [slides](slides/L1-课程入门.pdf), [notes](notes/l1-intro.pdf) |
 | Mar 4  |  2  | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
-| Mar 11 |  3  |   | |
-| Mar 18 |  4  |   | |
-| Mar 25 |  5  |   | |
+| Mar 11 |  3  | 上下文无关文法 | |
+| Mar 18 |  4  | 自顶向下解析 | |
+| Mar 25 |  5  | 自底向上解析 | |
 | Apr 1   |  6   |   | |
 | Apr 8   |  7   |   | |
 | Apr 15 |  8   |   | |
