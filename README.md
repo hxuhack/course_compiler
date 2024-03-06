@@ -54,10 +54,12 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 
 **Teaching Assistant**: 陈实立(Head TA)、王兆翰、柏露、董方、张涵星
 
+[**Repository**](https://github.com/hxuhack/compiler_project)
+
 | Date | Week | Topic | Materials | Responsible TA |
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
 | Feb 29 |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
-| Mar 7   |  2  | Make a Parser: From Source Code to AST | [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md) | 陈实立 |
+| Mar 7   |  2  | Make a Parser: From Source Code to AST | [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md), branch: 24s-assignment1 | 陈实立 |
 | Mar 14 |  3  |   | | 陈实立 |
 | Mar 21 |  4  |   | | 陈实立 |
 | Mar 28 |  5  |   | | 陈实立 |
