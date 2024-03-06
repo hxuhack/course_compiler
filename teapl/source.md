@@ -11,7 +11,7 @@ program := (varDeclStmt | structDef | fnDeclStmt | fnDef | comment | < ; >)*
 Each identifier begins with an alphabat and contains only alphabats and digits, e.g., alice, a0.
 
 ```
-id := [a-zA-Z][a-zA-Z0-9]*   
+id := [a-z_A-Z][a-z_A-Z0-9]*   
 ```
 
 TeaPL allows integers, e.g., 123
@@ -23,13 +23,11 @@ num := [1-9][0-9]* | 0
 An expression is a composd of identifiers, values,  and operators, e.g., 1+2, a*(b+c). For simplicity, we donot support unary operators, such as ++, +=.
 
 ```
-arithExpr :=  arithExpr arithBiOp arithExpr | exprUnit
-exprUnit :=  num | id | < ( > arithExpr < ) > | fnCall | id < [ > id | num < ] > | id < . > id | arithUOp exprUnit
+arithExpr := arithExpr arithBiOp arithExpr | exprUnit
+exprUnit :=  num | id | < ( > arithExpr < ) > | fnCall | leftVal < [ > id | num < ] > | leftVal < . > id | arithUOp exprUnit
 arithBiOp := < + > | < - > | < * > | < / >
 arithUOp := < - >
 ```
-
-主要可能是优先级的问题
 
 **Condition Expressions**
 
@@ -46,7 +44,7 @@ We restrict neither the left value nor right value can be assignments.
 
 ```
 assignStmt := leftVal < = > rightVal < ; >  
-leftVal := id | id < [ > id | num < ] > | id < . > id
+leftVal := id | leftVal < [ > id | num < ] > | leftVal < . > id
 rightVal := arithExpr | boolExpr
 ```
 
@@ -127,7 +125,7 @@ The grammar is specified as follows.
 ```
 fnDef := fnDecl codeBlock  
 codeBlock :=  < { > (varDeclStmt | assignStmt | callStmt | ifStmt | whileStmt | returnStmt | continueStmt | breakStmt | < ; > )* < } > 
-returnStmt ：= < ret > rightVal < ; >
+returnStmt ：= < ret > rightVal < ; > | < ret > < ; >
 continueStmt := < continue > < ; >
 breakStmt := < break > < ; >
 ```
