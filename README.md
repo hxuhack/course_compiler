@@ -60,7 +60,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
 | Feb 29 |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
 | Mar 7   |  2  | Make a Parser: From Source Code to AST | [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md), branch: 24s-assignment1 | 陈实立 |
-| Mar 14 |  3  |   | | 陈实立 |
+| Mar 14 |  3  | 实验一补说明 | [slides](project/24s-assignment1/Compiler_Assignment1-补充.pdf) | 陈实立 |
 | Mar 21 |  4  |   | | 陈实立 |
 | Mar 28 |  5  |   | | 陈实立 |
 | Apr 4   |  6   |  | | 董方 |
