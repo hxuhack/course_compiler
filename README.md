@@ -11,9 +11,9 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Mar 4  |  2  | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
 | Mar 11 |  3  | 上下文无关文法 | [slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf), [TeaPL语法标准](notes/appendix-teapl.pdf) |
 | Mar 18 |  4  | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
-| Mar 25 |  5  | 自底向上解析 | |
-| Apr 1   |  6   |   | |
-| Apr 8   |  7   |   | |
+| Mar 25 |  5  | 自底向上解析 | [slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) |
+| Apr 1  |  6   |   | |
+| Apr 8  |  7   |   | |
 | Apr 15 |  8   |   | |
 | Apr 22 |  9   |   | |
 | Apr 29 |  10   |   | |
@@ -61,19 +61,19 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Feb 29 |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
 | Mar 7   |  2  | Make a Parser: From Source Code to AST | [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md), branch: 24s-assignment1 | 陈实立 |
 | Mar 14 |  3  | 实验一补说明 | [slides](project/24s-assignment1/Compiler_Assignment1-补充.pdf) | 陈实立 |
-| Mar 21 |  4  |   | | 陈实立 |
-| Mar 28 |  5  |   | | 陈实立 |
-| Apr 4   |  6   |  | | 董方 |
-| Apr 11 |  7   |  | | 王兆翰 |
-| Apr 18 |  8   |  | | 柏露 |
-| Apr 25 |  9   |  | | 柏露、董方 |
-| May 2 |  10   |  | | 王兆翰 |
-| May 9  |  11   |  | | 柏露 |
-| May 16 |  12  |  | | 张涵星、柏露 |
+| Mar 21 |  4  | 实验一答疑  | | 陈实立 |
+| Mar 28 |  5  | 实验一验收  | | 陈实立 |
+| Apr 4   |  6   | 假期停课 | - | - |
+| Apr 11 |  7   |  | | 董方 |
+| Apr 18 |  8   |  | | 王兆翰  |
+| Apr 25 |  9   |  | | 柏露 |
+| May 2 |  10   |  | | 柏露、董方 |
+| May 9  |  11   |  | | 王兆翰 |
+| May 16 |  12  |  | | 柏露 |
 | May 23 |  13  |  | | 张涵星、柏露 |
-| May 30 |  14  |  | | 王兆翰 |
-| Jun 6    |  15  | |  | 张涵星、柏露 |
-| Jun 13  |  16  |  | | 王兆翰 |
+| May 30 |  14  |  | | 张涵星、柏露 |
+| Jun 6    |  15  | |  | 王兆翰 |
+| Jun 13  |  16  |  | | 张涵星、柏露 |
 <!--
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
