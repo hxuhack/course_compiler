@@ -62,7 +62,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Mar 7   |  2  | Make a Parser: From Source Code to AST | [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md), branch: 24s-assignment1 | 陈实立 |
 | Mar 14 |  3  | 实验一补说明 | [slides](project/24s-assignment1/Compiler_Assignment1-补充.pdf) | 陈实立 |
 | Mar 21 |  4  | 实验一答疑  | | 陈实立 |
-| Mar 28 |  5  | 实验一验收  | | 陈实立 |
+| Mar 28 |  5  | 实验一验收、实验二介绍：Type check  | [slides](project/24s-assignment2/Assignment2_typecheck.pdf) | 陈实立、董方 |
 | Apr 4   |  6   | 假期停课 | - | - |
 | Apr 11 |  7   |  | | 董方 |
 | Apr 18 |  8   |  | | 王兆翰  |
