@@ -12,7 +12,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Mar 11 |  3  | 上下文无关文法 | [slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf), [TeaPL语法标准](notes/appendix-teapl.pdf) |
 | Mar 18 |  4  | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
 | Mar 25 |  5  | 自底向上解析 | [slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) |
-| Apr 1  |  6   |   | |
+| Apr 1  |  6   | 类型推导 | [slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf) |
 | Apr 8  |  7   |   | |
 | Apr 15 |  8   |   | |
 | Apr 22 |  9   |   | |
