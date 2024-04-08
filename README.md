@@ -13,7 +13,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Mar 18 |  4  | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
 | Mar 25 |  5  | 自底向上解析 | [slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) |
 | Apr 1  |  6   | 类型推导 | [slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf) |
-| Apr 8  |  7   |   | |
+| Apr 8  |  7   | 线性IR  | [slides](slides/L7-线性IR.pdf, [notes](notes/l7-linearIR.pdf)  |
 | Apr 15 |  8   |   | |
 | Apr 22 |  9   |   | |
 | Apr 29 |  10   |   | |
