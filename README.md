@@ -5,7 +5,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 
 ### Lecture Notes
 
-| Date | Week | Topic | Materials | 
+| Date | Week | Topic | Materials |
 |:---------:|:---------:|:---------:|:------------------:|
 | Feb 26 |  1  | 课程入门  | [slides](slides/L1-课程入门.pdf), [notes](notes/l1-intro.pdf) |
 | Mar 4  |  2  | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
@@ -36,13 +36,13 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Oct 13 | 6 | TeaPL设计 | [slides](slides/L6-TeaPL设计.pdf), [video](https://cloud.fudan.edu.cn/#routeview/s/DwVePVAd) | [Parsing Expression Grammars: A Recognition-Based Syntactic Foundation](https://dl.acm.org/doi/abs/10.1145/964001.964011), Bryan Ford, 2004  |
 | Oct 20 | 7 | L7-AST+Types.pdf | [slides](slides/L7-AST+Types.pdf), [lecture notes](notes/l7-ast.pdf) | [Hybrid Type Checking](https://dl.acm.org/doi/pdf/10.1145/1111037.1111059?casa_token=HYEFXqjwckkAAAAA:pC5t1mo-xoT71PL84SNQ4BNiCC2c1zojsNKZMUobQfVayJ-tNAMFQlYVtOHr0pXuOkiVwjS7KC8Z), Cormac Flanagan, 2006 |
 | Oct 27 | 8 | L8-Linear IR | [slides](slides/L8-线性IR.pdf) | [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](https://ieeexplore.ieee.org/abstract/document/1281665), Chris Lattner, V. Adve, CGO 2004 |
-| Nov 3 | 9 | SSA | [slides](slides/L9-SSA.pdf), [lecture notes](notes/l9-ssa.pdf) | [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/abstract/document/9370308), Chris Lattner et al, CGO 2021 | 
+| Nov 3 | 9 | SSA | [slides](slides/L9-SSA.pdf), [lecture notes](notes/l9-ssa.pdf) | [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/abstract/document/9370308), Chris Lattner et al, CGO 2021 |
 | Nov 10 | 10 | Optimization | [slides](slides/L10-IROpti.pdf) | |
 | Nov 17 | 11 | 语言功能和设计模式 | [slides](slides/L11-语言More.pdf) | |
 | Nov 24 | 12 | 汇编代码 | [slides](slides/L12-汇编代码.pdf) | |
 | Dec 1 | 13 | 指令选择和调度 | [slides](slides/L13-指令选择和调度) | |
 | Dec 8 | 14 | 寄存器分配 | [slides](slides/L14-寄存器分配) | |
-| Dec 15 | 15 | 异常处理| [slides](slides/L15-异常处理) | | 
+| Dec 15 | 15 | 异常处理| [slides](slides/L15-异常处理) | |
 | Dec 22 | 16 | | | |
 | Dec 29 | 17 | No Class (University Exam Week) | | |
 | Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  | |
@@ -64,7 +64,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Mar 21 |  4  | 实验一答疑  | | 陈实立 |
 | Mar 28 |  5  | 实验一验收、实验二介绍：Type check  | [slides](project/24s-assignment2/Assignment2_typecheck.pdf) | 陈实立、董方 |
 | Apr 4   |  6   | 假期停课 | - | - |
-| Apr 11 |  7   |  | | 董方 |
+| Apr 11 |  7   | 实验3介绍：Linear lR Gen | [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf) | 柏露 |
 | Apr 18 |  8   |  | | 王兆翰  |
 | Apr 25 |  9   |  | | 柏露 |
 | May 2 |  10   |  | | 柏露、董方 |
