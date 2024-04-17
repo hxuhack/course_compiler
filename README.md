@@ -52,7 +52,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 
 **Classroom**: H逸夫楼302, 305 (8:00am-9:40am)
 
-**Teaching Assistant**: 陈实立(Head TA)、王兆翰、柏露、董方、张涵星
+**Teaching Assistant**: 陈实立(Head TA)、王兆瀚、柏露、董方、张涵星
 
 [**Repository**](https://github.com/hxuhack/compiler_project)
 
@@ -64,15 +64,15 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Mar 21 |  4  | 实验一答疑  | | 陈实立 |
 | Mar 28 |  5  | 实验一验收、实验二介绍：Type check  | [slides](project/24s-assignment2/Assignment2_typecheck.pdf) | 陈实立、董方 |
 | Apr 4   |  6   | 假期停课 | - | - |
-| Apr 11 |  7   | 实验3介绍：Linear lR Gen | [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf) | 柏露 |
-| Apr 18 |  8   |  | | 王兆翰  |
+| Apr 11 |  7   | 实验三介绍：Linear lR Gen | [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf) | 柏露 |
+| Apr 18 |  8   | 实验四介绍：SSA |[assignment4](project/24s-assignment4/assignment4.pdf) | 王兆瀚  |
 | Apr 25 |  9   |  | | 柏露 |
 | May 2 |  10   |  | | 柏露、董方 |
-| May 9  |  11   |  | | 王兆翰 |
+| May 9  |  11   | 实验四验收 | | 王兆瀚 |
 | May 16 |  12  |  | | 柏露 |
 | May 23 |  13  |  | | 张涵星、柏露 |
 | May 30 |  14  |  | | 张涵星、柏露 |
-| Jun 6    |  15  | |  | 王兆翰 |
+| Jun 6    |  15  | |  | 王兆瀚 |
 | Jun 13  |  16  |  | | 张涵星、柏露 |
 <!--
 | Date | Week | Topic | Materials |
