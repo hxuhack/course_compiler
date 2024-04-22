@@ -15,7 +15,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Apr 1  |  6   | 类型推导 | [slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf) |
 | Apr 8  |  7   | 线性IR | [slides](slides/L7-线性IR.pdf), [notes](notes/l7-linearIR.pdf)  |
 | Apr 15 |  8   | 静态单赋值 | [slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) |
-| Apr 22 |  9   |   | |
+| Apr 22 |  9   | 过程内优化  | [slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) |
 | Apr 29 |  10   |   | |
 | May 6  |  11   |   | |
 | May 13 |  12  |   | |
