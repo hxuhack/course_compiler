@@ -66,14 +66,14 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Apr 4   |  6   | 假期停课 | - | - |
 | Apr 11 |  7   | 实验三介绍：Linear lR Gen | [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf) | 柏露 |
 | Apr 18 |  8   | 实验四介绍：SSA |[assignment4](project/24s-assignment4/assignment4.pdf) | 王兆瀚  |
-| Apr 25 |  9   |  | | 柏露 |
-| May 2 |  10   |  | | 柏露、董方 |
-| May 9  |  11   | 实验四验收 | | 王兆瀚 |
-| May 16 |  12  |  | | 柏露 |
-| May 23 |  13  |  | | 张涵星、柏露 |
-| May 30 |  14  |  | | 张涵星、柏露 |
-| Jun 6    |  15  | |  | 王兆瀚 |
-| Jun 13  |  16  |  | | 张涵星、柏露 |
+| Apr 25 |  9   | 实验二验收 | | 董方 |
+| Apr 28 |  10   | 答疑 | | 柏露、王兆瀚 |
+| May 9  |  11   | 实验三验收 | | 柏露 |
+| May 16 |  12  | 实验四验收  | | 王兆瀚  |
+| May 23 |  13  | 实验五 | | 柏露、张涵星 |
+| May 30 |  14  | 实验五答疑 | | 柏露、张涵星 |
+| Jun 6    |  15  | 实验五答疑 |  | 柏露、张涵星|
+| Jun 13  |  16  | 实验五验收 | | 柏露、张涵星 |
 <!--
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:------------------:|:----------------------------------:|
