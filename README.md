@@ -16,37 +16,14 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Apr 8  |  7   | 线性IR | [slides](slides/L7-线性IR.pdf), [notes](notes/l7-linearIR.pdf)  |
 | Apr 15 |  8   | 静态单赋值 | [slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) |
 | Apr 22 |  9   | 过程内优化  | [slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) |
-| Apr 29 |  10   |   | |
+| Apr 29 |  10   | 过程间优化  | [slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf)|
 | May 6  |  11   |   | |
 | May 13 |  12  |   | |
-| May 20 |  13  |   | |
+| May 20 |  13  | Guest Lecture by 张宏波 | |
 | May 27 |  14  |   | |
 | Jun 3    |  15  |   | |
-| Jun 10  |  16  |   | |
+| Jun 10  |  16  | 端午节 No Class  | |
 | Jun 24  | 18  | Open Book Exam  | |
-
-<!--
-| Date | Week | Topic | Materials | Reading |
-|:---------:|:---------:|:---------:|:------------------:|:----------------------------------:|
-| Sep 8 | 1 | 课程入门 | [slides](slides/L1-课程入门.pdf), [lecture notes](notes/l1-intro.pdf)  | [The History of Fortran I, II, and III](reading/1-fortran.pdf), John Backus, 1978 |
-| Sep 15 | 2 | 词法分析 | [slides](slides/L2-词法分析.pdf), [lecture notes](notes/l2-lex.pdf)  | [Finite Automata And Their Decision Troblems](reading/2-fa.pdf), Dana Scott, 1959 |
-| Sep 22 | 3 | 上下文无关文法 | [slides](slides/L3-CFG.pdf), [lecture notes](notes/l3-cfg.pdf) | [CFL/Dyck Reachability: An Algorithmic Perspective](https://dl.acm.org/doi/abs/10.1145/3583660.3583664), Andreas Pavlogiannis, 2023 |
-| Sep 29 | 4 | 中秋节假期 No Class | |  |
-| Oct 6 (调课至 Oct 8) | 5 | 句法分析：LL(1)/SLR文法 |LL(1) [slides](slides/L4-LL1.pdf), [video](https://cloud.fudan.edu.cn/#routeview/s/7jqMEDbg); [practice](practice/first.htm) SLR文法 [slides](slides/L5-SLR.pdf), [video](https://cloud.fudan.edu.cn/#routeview/s/CeJ0VUFY)  | - |
-| Oct 13 | 6 | TeaPL设计 | [slides](slides/L6-TeaPL设计.pdf), [video](https://cloud.fudan.edu.cn/#routeview/s/DwVePVAd) | [Parsing Expression Grammars: A Recognition-Based Syntactic Foundation](https://dl.acm.org/doi/abs/10.1145/964001.964011), Bryan Ford, 2004  |
-| Oct 20 | 7 | L7-AST+Types.pdf | [slides](slides/L7-AST+Types.pdf), [lecture notes](notes/l7-ast.pdf) | [Hybrid Type Checking](https://dl.acm.org/doi/pdf/10.1145/1111037.1111059?casa_token=HYEFXqjwckkAAAAA:pC5t1mo-xoT71PL84SNQ4BNiCC2c1zojsNKZMUobQfVayJ-tNAMFQlYVtOHr0pXuOkiVwjS7KC8Z), Cormac Flanagan, 2006 |
-| Oct 27 | 8 | L8-Linear IR | [slides](slides/L8-线性IR.pdf) | [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](https://ieeexplore.ieee.org/abstract/document/1281665), Chris Lattner, V. Adve, CGO 2004 |
-| Nov 3 | 9 | SSA | [slides](slides/L9-SSA.pdf), [lecture notes](notes/l9-ssa.pdf) | [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/abstract/document/9370308), Chris Lattner et al, CGO 2021 |
-| Nov 10 | 10 | Optimization | [slides](slides/L10-IROpti.pdf) | |
-| Nov 17 | 11 | 语言功能和设计模式 | [slides](slides/L11-语言More.pdf) | |
-| Nov 24 | 12 | 汇编代码 | [slides](slides/L12-汇编代码.pdf) | |
-| Dec 1 | 13 | 指令选择和调度 | [slides](slides/L13-指令选择和调度) | |
-| Dec 8 | 14 | 寄存器分配 | [slides](slides/L14-寄存器分配) | |
-| Dec 15 | 15 | 异常处理| [slides](slides/L15-异常处理) | |
-| Dec 22 | 16 | | | |
-| Dec 29 | 17 | No Class (University Exam Week) | | |
-| Jan 5 | Week 18 | Open Book Exam (15:30-17:30) |  | |
--->
 
 ### Project
 
