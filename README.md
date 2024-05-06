@@ -17,7 +17,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Apr 15 |  8   | 静态单赋值 | [slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) |
 | Apr 22 |  9   | 过程内优化  | [slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) |
 | Apr 29 |  10   | 过程间优化  | [slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf)|
-| May 6  |  11   |   | |
+| May 6  |  11   | 指令选择  | [slides](slides/L11-指令选择.pdf), [notes](notes/l11-instsel.pdf) |
 | May 13 |  12  |   | |
 | May 20 |  13  | Guest Lecture by 张宏波 | |
 | May 27 |  14  |   | |
