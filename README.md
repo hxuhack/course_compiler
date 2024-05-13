@@ -18,7 +18,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | Apr 22 |  9   | 过程内优化  | [slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) |
 | Apr 29 |  10   | 过程间优化  | [slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf)|
 | May 6  |  11   | 指令选择  | [slides](slides/L11-指令选择.pdf), [notes](notes/l11-instsel.pdf) |
-| May 13 |  12  | | 寄存器分配  | [slides](slides/L12-寄存器分配.pdf), [notes](notes/l12-regalloc.pdf) |
+| May 13 |  12  | 寄存器分配  | [slides](slides/L12-寄存器分配.pdf), [notes](notes/l12-regalloc.pdf) |
 | May 20 |  13  | Guest Lecture by 张宏波 | |
 | May 27 |  14  |   | |
 | Jun 3    |  15  |   | |
