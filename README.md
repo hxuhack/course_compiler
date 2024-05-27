@@ -20,7 +20,7 @@ This is the course webpage of COMP130014.02 Compiler Principles and Techniques o
 | May 6  |  11   | 指令选择  | [slides](slides/L11-指令选择.pdf), [notes](notes/l11-instsel.pdf) |
 | May 13 |  12  | 寄存器分配  | [slides](slides/L12-寄存器分配.pdf), [notes](notes/l12-regalloc.pdf) |
 | May 20 |  13  | Guest Lecture by 张宏波， 指令调度与优化| [slides](slides/L13-指令调度与优化.pdf) |
-| May 27 |  14  | 并行和优化 | [notes](slides/L14-并行和优化.pdf) |
+| May 27 |  14  | 并行和优化 | [slides](slides/L14-并行和优化.pdf) |
 | Jun 3    |  15  | 异常处理 | |
 | Jun 10  |  16  | 端午节 No Class  | |
 | Jun 24  | 18  | Open Book Exam  | |
