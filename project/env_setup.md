@@ -85,19 +85,9 @@ qemu-aarch64/qemu-system-aarch64/qemu-system-arm -version
 
 # 汇编和链接
 
-假设汇编代码保存在文件`a.s`中，希望将汇编出的机器码保存至`a.out`，则使用交叉编译器和qemu对汇编进行仿真的指令为：
 
 ```shell
-$ aarch64-linux-gnu-gcc a.s libsysy.a --static -o a.out # 编译出机器码
-$ qemu-aarch64 a.out # 使用qemu执行机器码
-
-# If you get `qemu-aarch64: Unable to reserve 0xffff0000 bytes`:
-# Try `qemu-aarch64 -B 0 a.out`
+$ aarch64-linux-gnu-gcc -c sylib.c  -o sylib/sylib.o
+$ make
 ```
-其中`libsysy.a`为SysY运行时库，包含putint、timestart等函数，同样可以从elearing下载。使用交叉编译器时，请将它和汇编代码放在同一目录下。
 
-假设代码不依赖于libsysy.a，那么可以直接进行静态链接：
-```shell
-$ aarch64-linux-gnu-gcc test.S -o test --static
-$ qemu-aarch64 ./test
-```
