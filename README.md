@@ -7,7 +7,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:---------:|:------------------:|
-| Sep 5 |  1  | 课程入门  | [slides](slides/L1-课程入门.pdf), [notes](notes/l1-intro.pdf) |
+| Sep 5 |  1  | 课程入门  | <!--[slides](slides/L1-课程入门.pdf), [notes](notes/l1-intro.pdf)--> |
 | Sep 12  |  2  | 词法分析 | <!--[slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) -->|
 | Sep 19 |  3  | 上下文无关文法 | <!--[slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf), [TeaPL语法标准](notes/appendix-teapl.pdf) --> |
 | Sep 26 |  4  | 自顶向下解析 | <!--[slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf)  -->|
@@ -36,7 +36,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 
 | Date | Week | Topic | Materials | Responsible TA |
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
-| Sep 5 |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
+| Sep 5 |  1  | 通过LLVM了解编译器 | <!-- [slides](project/PJ0_LLVM.pdf) --> | 董方 |
 | Sep 12 |  2  | 实验一：语法解析 | <!-- [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md), branch: 24s-assignment1 -->| 陈实立  |
 | Sep 19 |  3  | 答疑  | <!-- [slides](project/24s-assignment1/Compiler_Assignment1-补充.pdf)--> | 陈实立 |
 | Sep 26 |  4  | 答疑  | | 陈实立 |
