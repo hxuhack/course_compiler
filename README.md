@@ -25,6 +25,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Dec 19  |  16  | 课程汇报 | |
 | Dec 25  | 17  | Open Book Exam  | |
 
+
 ### Project
 
 **Classroom**: H逸夫楼302, 402 (4:20am-6:00am)
@@ -47,10 +48,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Nov 7 |  10   | 拔尖班实验、答疑 | | 陈可、王兆瀚 |
 | Nov 14 |  11   | 实验三验收 | | 柏露 |
 | Nov 21 |  12  | 实验四验收  | | 王兆瀚  |
-| Nov 28 |  13  | 实验五 | | 张涵星 |
-| Dec 5 |  14  | 答疑 | | 张涵星 |
-| Dec 12  |  15  | 答疑 |  | 张涵星 |
-| Dec 19  |  16  | 实验五验收 | | 张涵星 |
+| Nov 28 |  13  | 实验五 | <!-- [assignment5](project/24s-assignment5/README.md) [asm_arm](project/24s-assignment5/asm.md) -->
 <!--
 The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
 -->
