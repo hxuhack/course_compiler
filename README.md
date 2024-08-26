@@ -10,13 +10,13 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Sep 5  |  1 | 课程入门  | <!--[slides](slides/L1-课程入门.pdf), [notes](notes/l1-intro.pdf)--> |
 | Sep 12 |  2 | 词法分析 | <!--[slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) -->|
 | Sep 19 |  3 | 上下文无关文法 | <!--[slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf), [TeaPL语法标准](notes/appendix-teapl.pdf) --> |
-| Sep 26 |  4 | 自顶向下解析 | <!--[slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf)  -->|
-| Oct 3  |  5 | 国庆节假期 | <!--[slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf)  -->|
-| Oct 10 |  6 |  类型推导 | <!--[slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf)  -->|
+| Sep 26 |  4 | 自顶向下解析 | <!--[slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) -->|
+| Oct 3  |  5 | 国庆节假期 | <!--[slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) -->|
+| Oct 10 |  6 |  类型推导 | <!--[slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf) -->|
 | Oct 17 |  7 |  线性IR | <!--[slides](slides/L7-线性IR.pdf), [notes](notes/l7-linearIR.pdf) -->|
 | Oct 24 |  8 | 静态单赋值 | <!--[slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) -->|
-| Oct 31 |  9 | 过程内优化  | <!--[slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf)  -->|
-| Nov 7  | 10 | 过程间优化  | <!--[slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf)  -->|
+| Oct 31 |  9 | 过程内优化  | <!--[slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) -->|
+| Nov 7  | 10 | 过程间优化  | <!--[slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf) -->|
 | Nov 14 | 11 | 指令选择  <!--[slides](slides/L11-指令选择.pdf), [notes](notes/l11-instsel.pdf) -->|
 | Nov 21 | 12 | 寄存器分配  <!--[slides](slides/L12-寄存器分配.pdf), [notes](notes/l12-regalloc.pdf) -->|
 | Nov 28 | 13 | | <!-- [slides](slides/L13-指令调度与优化.pdf) -->|
@@ -52,7 +52,6 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Dec 5  |  14 | | 张涵星 |
 | Dec 12 |  15 |  | 张涵星 |
 | Dec 19 |  16 |  | 张涵星 |
-
 
 The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
 
