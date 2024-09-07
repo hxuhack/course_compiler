@@ -37,21 +37,21 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Date | Week | Topic | Materials | Responsible TA |
 |:---------:|:---------:|:---------:|:------------------:|:----------:|
 | Sep 5  |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
-| Sep 12 |  2  | 实验一：语法解析 | <!-- [slides](project/24s-assignment1/Compiler_Assignment1.pdf), [Lex&Yacc-1](project/24s-assignment1/Lex&Yacc入门.md), [Lex&Yacc-2](project/24s-assignment1/Lex&Yacc进阶.md), [assignment1](project/24s-assignment1/Compiler_Assignment1.md), branch: 24s-assignment1 -->| 陈实立  |
-| Sep 19 |  3  | 答疑  | <!-- [slides](project/24s-assignment1/Compiler_Assignment1-补充.pdf)--> | 陈实立 |
-| Sep 26 |  4  | 答疑  | | 陈实立 |
+| Sep 12 |  2  | 实验一：语法解析 | [slides](project/PJ1_Parser.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment1) | 陈实立  |
+| Sep 19 |  3  | 答疑  |  | 陈可 |
+| Sep 26 |  4  | 答疑  |  | 陈实立 |
 | Oct 3  |  5  | 假期停课 | <!-- [slides](project/24s-assignment2/Assignment2_typecheck.pdf)--> |  |
-| Oct 10 |  6  | 实验一验收、实验二介绍：类型推导 | - | 陈实立、董方 |
-| Oct 17 |  7  | 实验三介绍：线性IR | <!-- [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf)--> | 柏露 |
-| Oct 24 |  8  | 实验四介绍：SSA | <!-- [assignment4](project/24s-assignment4/assignment4.pdf) --> | 王兆瀚  |
-| Oct 31 |  9  | 实验二验收 | | 董方 |
-| Nov 7  |  10 | 拔尖班实验、答疑 | | 陈可、王兆瀚 |
+| Oct 10 |  6  | 实验一验收 | - | 陈实立 |
+| Oct 17 |  7  | 实验二：类型推导 | <!-- [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf)--> | 董方 |
+| Oct 24 |  8  | 实验三：线性IR | <!-- [assignment4](project/24s-assignment4/assignment4.pdf) --> | 柏露  |
+| Oct 31 |  9  | 实验四：SSA | | 王兆瀚 |
+| Nov 7  |  10 | 实验二验收 | | 董方 |
 | Nov 14 |  11 | 实验三验收 | | 柏露 |
-| Nov 21 |  12 | 实验四验收  | | 王兆瀚  |
-| Nov 28 |  13 | 实验五 | <!-- [assignment5](project/24s-assignment5/README.md) [asm_arm](project/24s-assignment5/asm.md) --> | 张涵星 |
-| Dec 5  |  14 | | 张涵星 |
-| Dec 12 |  15 |  | 张涵星 |
-| Dec 19 |  16 |  | 张涵星 |
+| Nov 21 |  12 | 实验五：寄存器分配&实验六  | | 张涵星、陈可 |
+| Nov 28 |  13 | 实验四验收 | <!-- [assignment5](project/24s-assignment5/README.md) [asm_arm](project/24s-assignment5/asm.md) --> | 王兆瀚 |
+| Dec 5  |  14 | 答疑 |  | 张涵星 |
+| Dec 12 |  15 | 答疑 |  |张涵星 |
+| Dec 19 |  16 | 实验五验收 |  | 张涵星 |
 
 The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
 
