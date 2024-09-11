@@ -8,7 +8,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Date | Week | Topic | Materials |
 |:---------:|:---------:|:---------:|:------------------:|
 | Sep 5  |  1 | 课程介绍 | [slides](slides/L1-课程介绍.pdf), [notes](notes/l1-intro.pdf) |
-| Sep 12 |  2 | 词法分析 | [slides](slides/L2-词法分析.pdf) <!--, [notes](notes/l2-lex.pdf) -->|
+| Sep 12 |  2 | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
 | Sep 19 |  3 | 上下文无关文法 | <!--[slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf), [TeaPL语法标准](notes/appendix-teapl.pdf) --> |
 | Sep 26 |  4 | 自顶向下解析 | <!--[slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) -->|
 | Oct 3  |  5 | 国庆节假期 | |
