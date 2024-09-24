@@ -10,7 +10,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Sep 5  |  1 | 课程介绍 | [slides](slides/L1-课程介绍.pdf), [notes](notes/l1-intro.pdf) |
 | Sep 12 |  2 | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
 | Sep 19 |  3 | 上下文无关文法 | [slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf) |
-| Sep 26 |  4 | 自顶向下解析 | <!--[slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) -->|
+| Sep 26 |  4 | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
 | Oct 3  |  5 | 国庆节假期 | |
 | Oct 10  |  6 | 自底向上解析 | <!--[slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) -->|
 | Oct 17 |  7 | 类型推导 | <!--[slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf) -->|
