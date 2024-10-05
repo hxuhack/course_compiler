@@ -12,7 +12,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Sep 19 |  3 | 上下文无关文法 | [slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf) |
 | Sep 26 |  4 | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
 | Oct 3  |  5 | 国庆节假期 | |
-| Oct 10  |  6 | 自底向上解析 | <!--[slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) -->|
+| Oct 10  |  6 | 自底向上解析 | [slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) |
 | Oct 17 |  7 | 类型推导 | <!--[slides](slides/L6-类型推导.pdf), [notes](notes/l6-typecheck.pdf) -->|
 | Oct 24 |  8 | 线性IR | <!--[slides](slides/L7-线性IR.pdf), [notes](notes/l7-linearIR.pdf) -->|
 | Oct 31 |  9 | 静态单赋值 | <!--[slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) -->|
