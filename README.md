@@ -42,7 +42,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Sep 26 |  4  | 答疑  |  | 陈实立 |
 | Oct 3  |  5  | 假期停课 | <!-- [slides](project/24s-assignment2/Assignment2_typecheck.pdf)--> |  |
 | Oct 10 |  6  | 实验一验收 | - | 陈实立 |
-| Oct 17 |  7  | 实验二：类型推导 | <!-- [assignment3](project/24s-assignment3/assignment3.pdf),[genLinearIR](project/24s-assignment3/genLinearIR.pdf),[LLVMIR](project/24s-assignment3/LLVMIR.pdf)--> | 董方 |
+| Oct 17 |  7  | 实验二：类型推导 | [slides](project/PJ2_Typecheck.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment2) | 董方 |
 | Oct 24 |  8  | 实验三：线性IR | <!-- [assignment4](project/24s-assignment4/assignment4.pdf) --> | 柏露  |
 | Oct 31 |  9  | 实验四：SSA | | 王兆瀚 |
 | Nov 7  |  10 | 实验二验收 | | 董方 |
