@@ -14,7 +14,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Oct 3  |  5 | 国庆节假期 | |
 | Oct 10  |  6 | 自底向上解析 | [slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) |
 | Oct 17 |  7 | 类型推导 | [slides](slides/L6-类型推导.pdf), [notes](notes/l6-typeinfer.pdf) |
-| Oct 24 |  8 | 线性IR | <!--[slides](slides/L7-线性IR.pdf), [notes](notes/l7-linearIR.pdf) -->|
+| Oct 24 |  8 | 线性IR | [slides](slides/L7-线性IR.pdf), [notes](notes/l7-ir.pdf) |
 | Oct 31 |  9 | 静态单赋值 | <!--[slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) -->|
 | Nov 7 | 10 | 过程内优化  | <!--[slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) -->|
 | Nov 14  | 11 | 过程间优化 | <!--[slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf) -->|
