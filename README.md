@@ -44,7 +44,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Oct 10 |  6  | 实验一验收 | - | 陈实立 |
 | Oct 17 |  7  | 实验二：类型推导 | [slides](project/PJ2_Typecheck.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment2) | 董方 |
 | Oct 24 |  8  | 实验三: 线性IR |  [slides](project/PJ3_LinearIR.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment3)  | 柏露  |
-| Oct 31 |  9  | 实验四：SSA | | 王兆瀚 |
+| Oct 31 |  9  | 实验四：SSA | [slides](project/PJ4_SSA.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment4) | 王兆瀚 |
 | Nov 7  |  10 | 实验二验收 | | 董方 |
 | Nov 14 |  11 | 实验三验收 | | 柏露 |
 | Nov 21 |  12 | 实验五：寄存器分配&实验六  | | 张涵星、陈可 |
