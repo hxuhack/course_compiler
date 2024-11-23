@@ -47,7 +47,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Oct 31 |  9  | 实验四：SSA | [slides](project/PJ4_SSA.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment4) | 王兆瀚 |
 | Nov 7  |  10 | 实验二验收 | | 董方 |
 | Nov 14 |  11 | 实验三验收 | | 柏露 |
-| Nov 21 |  12 | 实验五：寄存器分配&[实验六](/project/PJ5_expand.pdf)  |[slides](/project/PJ5_Register%20allocation.pdf),[code](https://github.com/hxuhack/compiler_project/tree/24f-assignment5) | 张涵星、陈可 |
+| Nov 21 |  12 | 实验五：寄存器分配&[实验六](/project/PJ6_Plus.pdf)  |[slides](/project/PJ5_Register%20allocation.pdf),[code](https://github.com/hxuhack/compiler_project/tree/24f-assignment5) | 张涵星、陈可 |
 | Nov 28 |  13 | 实验四验收 | <!-- [assignment5](project/24s-assignment5/README.md) [asm_arm](project/24s-assignment5/asm.md) --> | 王兆瀚 |
 | Dec 5  |  14 | 答疑 |  | 张涵星 |
 | Dec 12 |  15 | 答疑 |  |张涵星 |
