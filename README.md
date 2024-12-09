@@ -21,7 +21,7 @@ This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Princ
 | Nov 21 | 12 | 指令选择  | [slides](slides/L11-指令选择.pdf), [notes](notes/l11-instsel.pdf) |
 | Nov 28 | 13 | 寄存器分配 | [slides](slides/L12-寄存器分配.pdf), [notes](notes/l12-regalloc.pdf) |
 | Dec 5  | 14 | 后端优化 | [slides](slides/L13-后端优化.pdf) |
-| Dec 12 | 15 | 调试信息 | |
+| Dec 12 | 15 | 栈展开 | [slides](slides/L14-栈展开.pdf) |
 | Dec 19 | 16 | 课程汇报 | |
 | Dec 25 | 17 | Open Book Exam | |
 
