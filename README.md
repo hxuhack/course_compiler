@@ -2,57 +2,56 @@
 
 **课程编号**: CS30017  
 **上课教室**: 待定 (1:30pm-4:10pm)
-**上机教室**: 待定 (4:25pm-6:00pm)
 
 **参考书**：[编译授课笔记](notes/编译授课笔记_v1_0.pdf)
 
-, [notes](notes/l1-intro.pdf) |
-| Sep 12 |  2 | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
-| Sep 19 |  3 | 上下文无关文法 | [slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf) |
-| Sep 26 |  4 | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
-| Oct 3  |  5 | 国庆节假期 | |
-| Oct 10  |  6 | 自底向上解析 | [slides](slides/L5-自底向上解析.pdf), [notes](notes/l5-bottomup.pdf) |
-| Oct 17 |  7 | 类型推导 | [slides](slides/L6-类型推导.pdf), [notes](notes/l6-typeinfer.pdf) |
-| Oct 24 |  8 | 线性IR | [slides](slides/L7-线性IR.pdf), [notes](notes/l7-ir.pdf) |
-| Oct 31 |  9 | 静态单赋值 | [slides](slides/L8-静态单赋值.pdf), [notes](notes/l8-ssa.pdf) |
-| Nov 7 | 10 | 过程内优化  | [slides](slides/L9-过程内优化.pdf), [notes](notes/l9-intraopt.pdf) |
-| Nov 14  | 11 | 过程间优化 | [slides](slides/L10-过程间优化.pdf), [notes](notes/l10-interopt.pdf) |
-| Nov 21 | 12 | 指令选择  | [slides](slides/L11-指令选择.pdf), [notes](notes/l11-instsel.pdf) |
-| Nov 28 | 13 | 寄存器分配 | [slides](slides/L12-寄存器分配.pdf), [notes](notes/l12-regalloc.pdf) |
-| Dec 5  | 14 | 后端优化 | [slides](slides/L13-后端优化.pdf) |
-| Dec 12 | 15 | 栈展开 | [slides](slides/L14-栈展开.pdf) |
-| Dec 19 | 16 | 课程汇报 | |
-| Dec 25 | 17 | Open Book Exam | |
+|日期|周|内容|课件|
+|:---------:|:---------:|:---------:|:------------------:|
+| 3月6日 |  1 | 课程入门 | <!--[slides](slides/L1-课程介绍.pdf) --> |
+| 3月13日 |  2 | 词法分析 | <!--[slides](slides/L2-词法分析.pdf) --> |
+| 3月20日 |  3 | 上下文无关文法 | <!--[slides](slides/L3-上下文无关文法.pdf) -->|
+| 3月27日 |  4 | 自顶向下解析 | <!--[slides](slides/L4-自顶向下解析.pdf) -->|
+| 4月3日  |  5 | 自底向上解析 | <!--[slides](slides/L5-自底向上解析.pdf)--> |
+| 4月10日 |  6 | 课程小结与研讨 |  |
+| 4月17日 |  7 | 类型推导 | <!--[slides](slides/L6-类型推导.pdf)--> |
+| 4月24日 |  8 | 线性IR | <!--[slides](slides/L7-线性IR.pdf)--> |
+| 5月1日 |  9 | 劳动节假期 |  |
+| 5月8日 | 10 | 静态单赋值 | <!--[slides](slides/L8-静态单赋值.pdf) --> |
+| 5月15日 | 11 | 过程内优化  | <!--[slides](slides/L9-过程内优化.pdf) --> |
+| 5月22日 | 12 | 过程间优化 | <!--[slides](slides/L10-过程间优化.pdf) --> |
+| 5月29日 | 13 | 课程小结与研讨 |  |
+| 6月5日  | 14 | 指令选择  | <!--[slides](slides/L11-指令选择.pdf)-->|
+| 6月12日 | 15 | 寄存器分配 | <!--[slides](slides/L12-寄存器分配.pdf) --> |
+| 6月19日 | 16 | 后端优化 | <!--[slides](slides/L13-后端优化.pdf)--> |
+| 6月29日 | 18 | 开卷考试 | |
 
 
-### Project
+### 课程实践
 
-**Classroom**: H逸夫楼302, 402 (4:20am-6:00am)
+**上机教室**: 待定 (4:20pm-6:00pm)
 
-**Teaching Assistant**: 陈实立(Head TA)、王兆瀚、柏露、董方、张涵星、陈可
+**助教**: 崔晨昊、孙一
 
-[**Repository**](https://github.com/hxuhack/compiler_project)
+<!--[**Repository**](https://github.com/hxuhack/compiler_project)-->
 
-| Date | Week | Topic | Materials | Responsible TA |
-|:---------:|:---------:|:---------:|:------------------:|:----------:|
-| Sep 5  |  1  | 通过LLVM了解编译器 | [slides](project/PJ0_LLVM.pdf) | 董方 |
-| Sep 12 |  2  | 实验一：语法解析 | [slides](project/PJ1_Parser.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment1) | 陈实立  |
-| Sep 19 |  3  | 答疑  |  | 陈可 |
-| Sep 26 |  4  | 答疑  |  | 陈实立 |
-| Oct 3  |  5  | 假期停课 | <!-- [slides](project/24s-assignment2/Assignment2_typecheck.pdf)--> |  |
-| Oct 10 |  6  | 实验一验收 | - | 陈实立 |
-| Oct 17 |  7  | 实验二：类型推导 | [slides](project/PJ2_Typecheck.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment2) | 董方 |
-| Oct 24 |  8  | 实验三: 线性IR |  [slides](project/PJ3_LinearIR.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment3)  | 柏露  |
-| Oct 31 |  9  | 实验四：SSA | [slides](project/PJ4_SSA.pdf), [code](https://github.com/hxuhack/compiler_project/tree/24f-assignment4) | 王兆瀚 |
-| Nov 7  |  10 | 实验二验收 | | 董方 |
-| Nov 14 |  11 | 实验三验收 | | 柏露 |
-| Nov 21 |  12 | 实验五：寄存器分配&[实验六](/project/PJ6_Plus.pdf)  |[slides](/project/PJ5_Register%20allocation.pdf),[code](https://github.com/hxuhack/compiler_project/tree/24f-assignment5) | 张涵星、陈可 |
-| Nov 28 |  13 | 实验四验收 | <!-- [assignment5](project/24s-assignment5/README.md) [asm_arm](project/24s-assignment5/asm.md) --> | 王兆瀚 |
-| Dec 5  |  14 | 答疑 |  | 张涵星 |
-| Dec 12 |  15 | 答疑 |  |张涵星 |
-| Dec 19 |  16 | 实验五验收 |  | 张涵星 |
-
-The specifications of the programming languages and intermidiate code employed in this course can be found [here](teapl/README.md). 
+|日期|周|内容|资料|
+|:---------:|:---------:|:---------:|:------------------:|
+| 3月6日 |  1 | Rust 1 |  |
+| 3月13日 |  2 | Rust 2 |  |
+| 3月20日 |  3 | Pest、布置实验一 | |
+| 3月27日 |  4 | 答疑 | |
+| 4月3日  |  5 | 答疑 |  |
+| 4月10日 |  6 | 验收实验一 |  |
+| 4月17日 |  7 | 布置实验二 | |
+| 4月24日 |  8 | 布置实验三 | |
+| 5月1日 |  9 | 假期 |  |
+| 5月8日 | 10 | 答疑 | |
+| 5月15日 | 11 | 答疑 |  |
+| 5月22日 | 12 | 验收实验二 |  |
+| 5月29日 | 13 | 验收实验三 |  |
+| 6月5日  | 14 | 布置实验四  | |
+| 6月12日 | 15 | 答疑 |  |
+| 6月19日 | 16 | 验收实验四 |  |
 
 
 
