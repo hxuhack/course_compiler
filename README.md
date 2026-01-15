@@ -1,13 +1,12 @@
-### Compiler Principles and Techniques 
-This is the course webpage for COMP130014.01 and COMP130014.01(H) Compiler Principles and Techniques for undergraduate students at Fudan University in Autumn 2024.
+### 编译原理
 
-**Classroom**: HGX207 (1:30pm-4:10pm)
+**课程编号**: CS30017  
+**上课教室**: 待定 (1:30pm-4:10pm)
+**上机教室**: 待定 (4:25pm-6:00pm)
 
-### Lecture Notes
+**参考书**：[编译授课笔记](notes/编译授课笔记_v1_0.pdf)
 
-| Date | Week | Topic | Materials |
-|:---------:|:---------:|:---------:|:------------------:|
-| Sep 5  |  1 | 课程介绍 | [slides](slides/L1-课程介绍.pdf), [notes](notes/l1-intro.pdf) |
+, [notes](notes/l1-intro.pdf) |
 | Sep 12 |  2 | 词法分析 | [slides](slides/L2-词法分析.pdf), [notes](notes/l2-lex.pdf) |
 | Sep 19 |  3 | 上下文无关文法 | [slides](slides/L3-上下文无关文法.pdf), [notes](notes/l3-cfg.pdf) |
 | Sep 26 |  4 | 自顶向下解析 | [slides](slides/L4-自顶向下解析.pdf), [notes](notes/l4-topdown.pdf) |
