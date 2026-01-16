@@ -8,6 +8,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
+Gemfile.lock
 
 # Backup files
 *.backup
