@@ -1,10 +1,17 @@
 # GitHub Pages configuration for tea-compiler.github.io
 
 # Site settings
-title: 编译原理 - Compiler Theory
-description: CS30017 编译原理课程网站 (2026年春季学期)
+title: 编译原理 - Compilation Principles
+description: Official website for CS30017 Compilation Principles course at Fudan University (Fall 2026)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tea-compiler.github.io" # the base hostname & protocol for your site
+
+# Course information
+course:
+  name: "编译原理 (Compilation Principles)"
+  code: "CS30017"
+  university: "复旦大学 (Fudan University)"
+  semester: "2026年秋季学期 (Fall 2026)"
 
 # Build settings
 markdown: kramdown
