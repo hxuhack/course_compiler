@@ -30,3 +30,6 @@ plugins:
 
 # Language setting
 lang: zh-CN
+
+# Disable header navigation
+header_pages: []
