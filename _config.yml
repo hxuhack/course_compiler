@@ -1,0 +1,32 @@
+# GitHub Pages configuration for tea-compiler.github.io
+
+# Site settings
+title: 编译原理 - Compiler Theory
+description: CS30017 编译原理课程网站 (2026年春季学期)
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tea-compiler.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Encoding
+encoding: utf-8
+
+# Exclude files from processing
+exclude:
+  - .DS_Store
+  - .git
+  - .gitignore
+  - README.md.backup
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Language setting
+lang: zh-CN
