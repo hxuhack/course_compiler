@@ -6,13 +6,6 @@ description: Official website for CS30017 Compilation Principles course at Fudan
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tea-compiler.github.io" # the base hostname & protocol for your site
 
-# Course information
-course:
-  name: "编译原理 (Compilation Principles)"
-  code: "CS30017"
-  university: "复旦大学 (Fudan University)"
-  semester: "2026年秋季学期 (Fall 2026)"
-
 # Build settings
 markdown: kramdown
 theme: minima
