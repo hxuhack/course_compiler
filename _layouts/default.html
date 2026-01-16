@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Course Banner -->
+        <div class="course-banner">
+          <h1>编译原理<br>Compilation Principles</h1>
+          <div class="university">复旦大学 Fudan University</div>
+          <div class="semester">2026年秋季学期 Fall 2026</div>
+          <div class="official-notice">
+            ✦ Official Course Website ✦ 官方课程网站 ✦
+          </div>
+        </div>
+        
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
