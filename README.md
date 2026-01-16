@@ -1,12 +1,6 @@
-### 编译原理 (Compilation Principles)
-
-**复旦大学 - Fudan University**  
-**2026年秋季学期 (Fall 2026)**  
-**课程编号 Course Code**: CS30017  
+### 编译原理 (复旦大学 2026年秋季学期)
+ 
 **上课教室 Classroom**: 待定 (1:30pm-4:10pm)
-
-> **官方课程网站 Official Course Website**  
-> This is the official website for the Compilation Principles course at Fudan University.
 
 **参考书**：[编译授课笔记](notes/编译授课笔记_v1_0.pdf)
 
