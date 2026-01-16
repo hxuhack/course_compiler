@@ -1,14 +1,14 @@
+# macOS
+.DS_Store
+**/.DS_Store
 
-reading/.DS_Store
-demo/.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-slides/.DS_Store
-slides/.DS_Store
-.DS_Store
-demo/.DS_Store
-.DS_Store
-notes/.DS_Store
-.DS_Store
-notes/.DS_Store
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Backup files
+*.backup
+*~
